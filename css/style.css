@@ -2,3 +2,23 @@ body {
   background-color: #f0f8ff;
   text-align: center;
 }
+
+#survey-form{
+
+  background-color: blue;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 55%;
+  left:50%;
+  transform: translate(-50% ,-50%);
+  color: white;
+}
+
+
+input{
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  
+}

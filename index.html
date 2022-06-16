@@ -8,14 +8,46 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">This is Simple Form For Survey</p>
-    <form id="survey-form">
-      <input type="text" id="name" required>
-      <input type="email"  id="email" required>
-      <input type="number" id="number" min="1" max="100">
-
-    </form>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This is Simple Form For Survey</p>
+      <form id="survey-form">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="Name" /><br />
+        <label id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="Email" /><br />
+        <label id="number-label">Number</label>
+        <input
+          type="number"
+          id="number"
+          min="1"
+          max="100"
+          placeholder="Number"
+        /><br />
+        <select id="dropdown">
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+        <div>
+          <input type="radio" name="radio" value="value 1" />
+          <label>Radio 1 Button</label><br />
+          <input type="radio" name="radio" value="value 2" />
+          <label>Radio 2 Button</label>
+        </div>
+        <div>
+          <input type="checkbox" value="value 1" />
+          <label>Checkbox 1</label><br />
+          <input type="checkbox" value="value 2" />
+          <label>Checkbox 2</label><br />
+          <input type="checkbox" value="vlaue 3" />
+          <label>Checkbox 3</label><br />
+          <input type="checkbox" value="vlaue 4" />
+          <label>Checkbox 4</label><br />
+        </div>
+        <textarea></textarea> <br />
+        <button id="submit">Submit</button>
+      </form>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
